@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f5f7">
+  <meta name="description" content="常铭的个人作品集。关注 AI 应用开发与产品实践，展示桌面时钟、学案 Skill、开源工具、校园组织与教育实习经历。">
+  <title>常铭 · 把想法做成可用的产品</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="campus.css">
+  <link rel="stylesheet" href="navigation.css">
+  <script defer src="app.js"></script>
+  <script defer src="navigation.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到内容</a>
+  <header class="global-header" data-mobile-open="false" data-panel-open="false">
+  <nav class="global-nav" aria-label="主导航">
+    <div class="global-bar">
+      <a class="global-wordmark" href="#top" aria-label="常铭，返回首页">常铭<span class="global-wordmark-dot" aria-hidden="true"></span></a>
+      <div class="global-navigation" id="global-navigation">
+        <ul class="global-menu-list">
+          <li class="global-nav-item">
+            <button class="global-trigger" id="global-trigger-work" type="button" aria-expanded="false" aria-controls="global-panel-work">作品集<span class="global-chevron" aria-hidden="true"></span></button>
+            <section class="global-panel" id="global-panel-work" aria-labelledby="global-trigger-work" aria-hidden="true" hidden inert>
+              <div class="global-panel-inner">
+                <div class="global-panel-primary"><p class="global-label">探索作品</p><a href="#work">水塘时钟<span aria-hidden="true">↗</span></a><a href="#skills">开源 Skills<span aria-hidden="true">↗</span></a><a href="#project-grid">更多作品<span aria-hidden="true">↗</span></a></div>
+                <div class="global-panel-secondary"><p class="global-label">快速开始</p><a href="pond-demo/">体验水塘时钟</a><a href="#skills">了解学案 Skill</a><a href="#resume">获取两版简历</a></div>
+                <div class="global-panel-note"><span class="global-note-mark" aria-hidden="true">↗</span><p class="global-note-title">把想法做成作品。</p><p>从日常场景出发，用可运行的应用与可复用的工具呈现思考。</p><a href="#work" class="global-note-link">开始探索 <span aria-hidden="true">→</span></a></div>
+              </div>
+            </section>
+          </li>
+          <li class="global-nav-item">
+            <button class="global-trigger" id="global-trigger-projects" type="button" aria-expanded="false" aria-controls="global-panel-projects">项目经历<span class="global-chevron" aria-hidden="true"></span></button>
+            <section class="global-panel" id="global-panel-projects" aria-labelledby="global-trigger-projects" aria-hidden="true" hidden inert>
+              <div class="global-panel-inner">
+                <div class="global-panel-primary"><p class="global-label">项目与实践</p><a href="#work">桌面应用开发<span aria-hidden="true">↗</span></a><a href="#skills">AI 工作流设计<span aria-hidden="true">↗</span></a><a href="#project-grid">算法研究与实现<span aria-hidden="true">↗</span></a></div>
+                <div class="global-panel-secondary"><p class="global-label">工程经历</p><a href="#internship">软件开发实习</a><a href="#project-grid">查看工具作品</a><a href="pond-demo/">打开交互演示</a></div>
+                <div class="global-panel-note"><span class="global-note-mark global-note-code" aria-hidden="true">&lt;/&gt;</span><p class="global-note-title">从定义问题，到实现。</p><p>关注需求、交互、工程实现与反馈，让每一步都指向具体的使用场景。</p><a href="#internship" class="global-note-link">了解实践经历 <span aria-hidden="true">→</span></a></div>
+              </div>
+            </section>
+          </li>
+          <li class="global-nav-item">
+            <button class="global-trigger" id="global-trigger-campus" type="button" aria-expanded="false" aria-controls="global-panel-campus">校园经历<span class="global-chevron" aria-hidden="true"></span></button>
+            <section class="global-panel" id="global-panel-campus" aria-labelledby="global-trigger-campus" aria-hidden="true" hidden inert>
+              <div class="global-panel-inner">
+                <div class="global-panel-primary"><p class="global-label">课堂之外</p><a href="#campus">校园经历概览<span aria-hidden="true">↗</span></a><a href="#campus-chess">跨校象棋联赛<span aria-hidden="true">↗</span></a><a href="#campus-events">校园活动策划<span aria-hidden="true">↗</span></a></div>
+                <div class="global-panel-secondary"><p class="global-label">参与与连接</p><a href="#campus-wellbeing">心理辅导站</a><a href="#campus-clubs">社团服务管理</a><a href="#journey">教育背景</a></div>
+                <div class="global-panel-note"><span class="global-note-mark global-note-orbit" aria-hidden="true"><i></i><i></i><i></i></span><p class="global-note-title">在参与中，理解协作。</p><p>校园里的组织、交流与服务，也是发现需求和理解他人的起点。</p><a href="#campus" class="global-note-link">走进校园经历 <span aria-hidden="true">→</span></a></div>
+              </div>
+            </section>
+          </li>
+          <li class="global-nav-item">
+            <button class="global-trigger" id="global-trigger-about" type="button" aria-expanded="false" aria-controls="global-panel-about">关于我<span class="global-chevron" aria-hidden="true"></span></button>
+            <section class="global-panel" id="global-panel-about" aria-labelledby="global-trigger-about" aria-hidden="true" hidden inert>
+              <div class="global-panel-inner">
+                <div class="global-panel-primary"><p class="global-label">认识常铭</p><a href="#journey">教育背景<span aria-hidden="true">↗</span></a><a href="#internship">实习经历<span aria-hidden="true">↗</span></a><a href="#contact">联系我<span aria-hidden="true">↗</span></a></div>
+                <div class="global-panel-secondary"><p class="global-label">进一步了解</p><a href="#resume">AI 应用开发简历</a><a href="#resume">AI 产品经理简历</a><a href="#top">返回个人介绍</a></div>
+                <div class="global-panel-note"><span class="global-note-mark global-note-initial" aria-hidden="true">CM</span><p class="global-note-title">数学、代码，与好奇心。</p><p>从数学到计算机科学，持续学习，也持续把新的想法付诸实践。</p><a href="#contact" class="global-note-link">开始一次交流 <span aria-hidden="true">→</span></a></div>
+              </div>
+            </section>
+          </li>
+        </ul>
+      </div>
+      <a class="global-resume" href="#resume">获取简历<span aria-hidden="true">↗</span></a>
+      <button class="global-mobile-toggle" type="button" aria-controls="global-navigation" aria-expanded="false" aria-label="展开导航"><span></span><span></span></button>
+    </div>
+  </nav>
+</header>
+
+  <main id="main">
+    <section class="hero wrap" id="top">
+      <div class="hero-kicker"><span class="status-dot"></span> AI APPLICATIONS & PRODUCT BUILDING</div>
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <h1>把想法，<br>做成<span class="gradient-text">可用的产品。</span></h1>
+          <p class="hero-intro">你好，我是常铭。<br>从数学出发，用 AI 连接问题、代码与真实体验。</p>
+          <div class="hero-actions"><a class="button primary" href="#work">探索我的作品 <span aria-hidden="true">↓</span></a><a class="text-link" href="#journey">认识我 <span aria-hidden="true">↗</span></a></div>
+        </div>
+        <aside class="profile" aria-label="个人简介">
+          <div class="portrait-orbit"><div class="portrait-frame"><img src="assets/changming.png" alt="常铭的个人照片" width="110" height="136"></div><span class="orbit-label">MATH × CODE × AI</span></div>
+          <p class="profile-name">常铭 <span>Chang Ming</span></p>
+          <p class="profile-role">AI 应用开发 · AI 产品实践</p>
+          <div class="profile-rule"></div>
+          <p class="profile-school">香港城市大学（东莞）<br><span>计算机科学 · 硕士在读</span></p>
+          <p class="profile-location"><span aria-hidden="true">⌖</span> 广东 · 东莞</p>
+        </aside>
+      </div>
+      <div class="hero-bottom"><p>以作品回答问题。<span>从需求发现，到原型实现，再到反馈迭代。</span></p><a href="https://github.com/C-xudco" target="_blank" rel="noopener noreferrer" class="github-link">GitHub / C-xudco <span aria-hidden="true">↗</span></a></div>
+    </section>
+
+    <section class="clock-section" id="work" aria-labelledby="clock-title">
+      <div class="wrap">
+        <div class="section-topline"><span>SELECTED WORK 01</span><span>个人项目 · Vibe coding</span></div>
+        <div class="clock-heading reveal"><p class="eyebrow">POND CLOCK · 水塘时钟</p><h2 id="clock-title">在桌面，<br><span>留一方自己的水塘。</span></h2><p class="section-description">时钟、天气，还有等一条鱼上钩的片刻。<br>一个借助 AI 构建的 Windows 桌面钓鱼挂件。</p><div class="clock-product-tags"><span>React</span><span>Electron</span><span>本地存档</span><span>12 个水域</span></div></div>
+        <div class="clock-stage reveal">
+          <div class="ambient-glow"></div>
+          <figure class="pond-preview"><img id="pond-screenshot" src="assets/pond-jiangnan.png" alt="水塘时钟实际应用界面：秦淮河文德桥的水墨场景，包含时钟、天气和钓鱼交互" width="960" height="735" loading="lazy"><figcaption class="sr-only" id="pond-screenshot-caption">秦淮河 · 水墨江南</figcaption></figure>
+          <div class="window-pedestal" aria-hidden="true"></div>
+        </div>
+        <div class="scene-switcher" role="group" aria-label="切换应用截图"><button class="active" type="button" data-scene="jiangnan" aria-pressed="true">水墨江南</button><button type="button" data-scene="dongbei" aria-pressed="false">北国小雪</button><button type="button" data-scene="journey" aria-pressed="false">水域漫游</button></div>
+        <div class="demo-caption"><span class="demo-badge">真实应用界面 · 测试场景</span><p>截图中的金币与天气来自测试存档，不代表用户使用数据。</p></div>
+        <div class="pond-demo-action"><a class="button pond-demo-button" href="pond-demo/" target="_blank" rel="noopener noreferrer">打开交互演示 <span aria-hidden="true">↗</span></a><span>浏览器体验版 · 桌面窗口能力请以 Windows App 为准</span></div>
+        <div class="clock-story"><div><p class="mini-label">01 / 场景</p><h3>时间与一点轻陪伴</h3><p>将现实时间、天气与轻量钓鱼放在同一个桌面挂件中，让功能与体验一起成立。</p></div><div><p class="mini-label">02 / 实现</p><h3>从 AI 协作到桌面交付</h3><p>用 React 与 Electron 实现界面、本地存档和窗口能力，推进可运行的 Windows 应用。</p></div><div><p class="mini-label">03 / 验证</p><h3>在早期反馈里寻找方向</h3><p>从体验偏好、版本期待与主动分享意向中，判断哪些价值值得继续打磨。</p></div></div>
+        <div class="feedback-section"><div class="feedback-heading"><p class="mini-label">EARLY SIGNALS</p><h3>来自早期体验的声音。</h3><p>从体验、版本期待与分享意愿中，寻找下一步迭代方向。</p></div><div class="feedback-quotes"><blockquote><p>“好治愈”</p><cite>体验偏好</cite></blockquote><blockquote><p>“4.0 什么时候上”</p><cite>版本期待</cite></blockquote><blockquote><p>“发给几个好朋友”</p><cite>主动分享意向</cite></blockquote><blockquote><p>“上线了我一定会去买”</p><cite>潜在付费意向</cite></blockquote></div><p class="feedback-note">以上为早期内测反馈的短摘录；分享与付费意向不代表实际传播或成交，版本提问不代表该版本已发布。</p></div>
+      </div>
+    </section>
+
+    <section class="skills-section wrap" id="skills" aria-labelledby="skills-title">
+      <div class="section-topline"><span>SELECTED WORK 02</span><span>Open source · 可复用的 AI 工作流</span></div>
+      <div class="section-heading reveal"><p class="eyebrow blue-text">SKILLS THAT SOLVE PROBLEMS</p><h2 id="skills-title">把一次次提问，<br>沉淀为<span class="muted-text">可复用的能力。</span></h2><p>从课程学习到协作管理，我尝试把重复出现的问题，<br class="desktop-only">做成有流程、有边界、有检查方式的 AI Skills。</p></div>
+      <article class="featured-skill reveal">
+        <div class="skill-visual" aria-label="学案 Skill 工作流示意">
+          <div class="lesson-document"><div class="doc-top"><span class="doc-symbol">S</span><span>STUDY GUIDE</span><span class="doc-lang">中 / EN</span></div><p class="doc-eyebrow">COURSE STUDY GUIDE</p><h3>让学习，<br>循序渐进。</h3><div class="doc-steps"><div><span>01</span><p>理解概念<small>Concepts</small></p><i>✓</i></div><div><span>02</span><p>母题与变式<small>Practice</small></p><i>✓</i></div><div><span>03</span><p>检查与复盘<small>Review</small></p><i>✓</i></div></div><div class="doc-footer"><span>Codex</span><span>豆包</span><span>DeepSeek Harness</span></div></div>
+          <span class="visual-note">工作流示意</span>
+        </div>
+        <div class="featured-copy"><span class="pill">教育 × AI</span><h3>Course Study Guide</h3><p class="skill-summary">面向课程学习与备课的渐进式学案 Skill，把零散需求组织成可重复使用的学习流程。</p><ul class="check-list"><li>学生学习、教师备课与母题变式三类任务</li><li>中文 / 英文双语学案，适配三种 AI 工具环境</li><li>结构化校验脚本与面向初学者的安装教程</li></ul><div class="repo-stats"><div><strong>22<span> Stars</span></strong><p>开源关注</p></div><div><strong>1<span> Fork</span></strong><p>仓库派生</p></div><div><strong>3<span> 个版本</span></strong><p>平台适配</p></div></div><p class="stats-date">GitHub 数据截至 2026.10.27；Stars / Fork 为仓库数据。</p><div class="skill-links"><a class="text-link" href="https://github.com/C-xudco/course-study-guide" target="_blank" rel="noopener noreferrer">查看 GitHub <span aria-hidden="true">↗</span></a><button class="text-link case-trigger" data-case="study" type="button">了解项目思路 <span aria-hidden="true">＋</span></button></div></div>
+      </article>
+      <div class="more-work-header"><h3>继续探索</h3><div class="project-filters" role="group" aria-label="作品筛选"><button type="button" class="active" data-filter="all" aria-pressed="true">全部</button><button type="button" data-filter="workflow" aria-pressed="false">协作工作流</button><button type="button" data-filter="engineering" aria-pressed="false">工程实践</button></div></div>
+      <div class="project-grid" id="project-grid">
+        <article class="project-card" data-category="workflow"><div class="project-icon token-icon" aria-hidden="true"><span>▥</span></div><span class="project-type">AI 工具</span><h3>Codex Token Memory</h3><p>查看会话 Token 使用与缓存数据，并管理用户选择的可复用记忆条目。</p><div class="project-card-bottom"><span>可观察 · 可管理</span><a href="https://github.com/C-xudco/codex-token-memory" target="_blank" rel="noopener noreferrer" aria-label="在 GitHub 查看 Codex Token Memory">查看项目 ↗</a></div></article>
+        <article class="project-card" data-category="workflow"><div class="project-icon modules-icon" aria-hidden="true"><span></span><span></span><span></span><span></span></div><span class="project-type">AI 协作</span><h3>Modular Collaboration Guide</h3><p>围绕提问方式、背景模块与协作记忆，组织更清晰的 AI 协作过程。</p><div class="project-card-bottom"><span>模块化 · 可编辑</span><a href="https://github.com/C-xudco/modular-collaboration-guide" target="_blank" rel="noopener noreferrer" aria-label="在 GitHub 查看 Modular Collaboration Guide">查看项目 ↗</a></div></article>
+        <article class="project-card" data-category="engineering"><div class="project-icon graph-icon" aria-hidden="true"><span>⌘</span></div><span class="project-type">Java · 课程项目</span><h3>影响力最大化算法</h3><p>面向社交网络传播，用贪心近似方法选择种子节点，实现概率传播与实验验证。</p><div class="project-card-bottom"><span>图模型 · 算法分析</span><button type="button" class="case-trigger" data-case="algorithm">查看方法 ＋</button></div></article>
+      </div>
+      <p class="filter-status sr-only" id="filter-status" aria-live="polite"></p>
+    </section>
+
+    <section class="approach-section">
+      <div class="wrap approach-grid"><div class="approach-heading reveal"><p class="eyebrow">HOW I BUILD</p><h2>会用 AI，<br>也关心<span class="muted-text">为什么做。</span></h2><p>工具让实现更快。问题定义、判断与验证，<br>决定做出来的东西是否有价值。</p></div><ol class="approach-list"><li><span>01</span><div><h3>先看场景，再定义问题</h3><p>从学习、协作与桌面使用中的具体需求出发，明确谁需要它、它应解决什么。</p></div></li><li><span>02</span><div><h3>拆成 AI 可以执行的任务</h3><p>把目标变成结构化输入、实现步骤和检查条件，用 Skills 沉淀重复工作。</p></div></li><li><span>03</span><div><h3>交付作品，再获取反馈</h3><p>通过可运行的应用与开源仓库呈现结果，让使用体验与实际反馈参与下一轮判断。</p></div></li></ol></div>
+    </section>
+
+    <section class="campus-section" id="campus" aria-labelledby="campus-title">
+      <div class="wrap">
+        <div class="campus-heading">
+          <div><p class="eyebrow blue-text">CAMPUS LEADERSHIP</p><h2 id="campus-title">校园经历。<br><span>从组织活动，到带领团队。</span></h2></div>
+          <p class="campus-intro">在本科阶段承担社团、校级学生组织与学院学生会职责，积累跨校统筹、现场执行和长期服务的经验。</p>
+        </div>
+        <div class="campus-metrics" aria-label="校园活动成果">
+          <div class="campus-metric"><strong>4<span>所高校</span></strong><p>威海区域象棋联赛协作</p></div>
+          <div class="campus-metric"><strong>100+<span>观众</span></strong><p>草地音乐节现场总控</p></div>
+          <div class="campus-metric"><strong>20<span>余期</span></strong><p>常态化心理观影活动</p></div>
+          <div class="campus-metric"><strong>800+<span>人次</span></strong><p>心理观影活动累计服务</p></div>
+        </div>
+        <div class="campus-stories">
+          <article class="campus-story" id="campus-chess">
+            <div class="campus-story-top"><span class="campus-story-index">01 / 跨校统筹</span><span class="campus-period">本科大二</span></div>
+            <h3>把四所高校，聚到同一场棋赛。</h3>
+            <p class="campus-role">会友棋社 · 会长</p>
+            <p class="campus-detail">牵头策划威海 <strong>4 所高校区域象棋联赛</strong>，联合多校制定标准化赛制；统筹场地、人员与交通安排，应对跨校区调度。</p>
+            <p class="campus-detail">赛事<strong>零事故落地并获电视台报道</strong>，以区域赛事建设社团品牌。</p>
+            <div class="campus-outcome" aria-label="能力侧重"><span>跨校协作</span><span>规则制定</span><span>现场统筹</span></div>
+          </article>
+          <article class="campus-story" id="campus-events">
+            <div class="campus-story-top"><span class="campus-story-index">02 / 活动策划</span><span class="campus-period">本科大二</span></div>
+            <h3>从文化节策划，到音乐节总控。</h3>
+            <p class="campus-role">校园活动中心 · 活动部部长 · 校级学生组织</p>
+            <p class="campus-detail">担任传统文化节策划及<strong>草地音乐节现场总控（100+ 观众）</strong>，跨部门协调物资与现场动线，制定突发情况应急预案。</p>
+            <p class="campus-detail">设计并推行<strong>“执行小组积分激励制”</strong>，沉淀可复用的团队执行与管理规范。</p>
+            <div class="campus-outcome" aria-label="能力侧重"><span>策划执行</span><span>应急协调</span><span>团队激励</span></div>
+          </article>
+          <article class="campus-story" id="campus-wellbeing">
+            <div class="campus-story-top"><span class="campus-story-index">03 / 长期运营</span><span class="campus-period">本科大二</span></div>
+            <h3>让一次活动，成为持续的支持。</h3>
+            <p class="campus-role">数学与统计学院 · 心理辅导站部长 · 院学生会</p>
+            <p class="campus-detail">推动学院心理咨询服务支持体系建设，独立策划<strong>20 余期常态化心理观影活动</strong>，累计服务 <strong>800+ 人次</strong>。</p>
+            <p class="campus-detail">持续推进活动组织与服务保障，积累长周期项目运营经验。</p>
+            <div class="campus-outcome" aria-label="能力侧重"><span>长期项目运营</span><span>服务体系</span><span>持续交付</span></div>
+          </article>
+          <article class="campus-story" id="campus-clubs">
+            <div class="campus-story-top"><span class="campus-story-index">04 / 社团管理</span><span class="campus-period">本科期间</span></div>
+            <h3>让社团活动与日常管理有序运转。</h3>
+            <p class="campus-role">社团发展中心 · 服务管理部部长</p>
+            <p class="campus-detail">组织社团迎新大会、百团大战、社团之星等文体活动，开展会长大会、社团培训等管理培训会议。</p>
+            <p class="campus-detail">负责<strong>日常社团文件归档与社团星级评定大会</strong>等工作，支持社团日常服务与管理。</p>
+            <div class="campus-outcome" aria-label="能力侧重"><span>活动组织</span><span>管理培训</span><span>资料与流程</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="journey-section wrap" id="journey" aria-labelledby="journey-title">
+      <div class="section-heading reveal"><p class="eyebrow blue-text">A LITTLE MORE ABOUT ME</p><h2 id="journey-title">数学的底子。<br><span class="muted-text">产品的好奇心。</span></h2></div>
+      <div class="journey-grid"><div class="education-panel"><h3 class="timeline-title">教育背景</h3><div class="timeline-item"><span class="timeline-dot"></span><p class="timeline-date">2026.09 — 2028.06（预计）</p><h4>香港城市大学（东莞）</h4><p class="timeline-role">计算机科学 · 硕士在读</p><p class="timeline-description">研究兴趣：计算机视觉、3D 重建、机器学习与具身智能。</p></div><div class="timeline-item"><span class="timeline-dot"></span><p class="timeline-date">2022.09 — 2026.06</p><h4>山东大学</h4><p class="timeline-role">数学与应用数学 · 本科</p><p class="timeline-description">数学分析、概率统计、运筹学、数值分析与数学建模，为算法理解和问题抽象提供基础。</p><div class="honor-tags"><span>优秀心理委员</span><span>优秀志愿者</span><span>特长奖学金</span></div></div></div><div class="experience-panel" id="internship"><h3 class="timeline-title">实习与能力</h3><div class="timeline-item"><span class="timeline-dot"></span><p class="timeline-date">2026.01 — 2026.02</p><h4>青岛积成电子股份有限公司</h4><p class="timeline-role">软件开发实习生</p><p class="timeline-description">参与数据监控大屏的接口调试、数据获取与可视化，优化页面布局和信息呈现；执行功能测试、定位问题并编写技术文档。</p></div><div class="ability-block"><p class="mini-label">TOOLKIT</p><div class="ability-tags"><span>Python</span><span>Java</span><span>C++</span><span>AI Skills</span><span>数据可视化</span><span>算法建模</span><span>功能测试</span><span>技术文档</span></div><p class="english-note">CET-6 · 506 分 <span>英文技术文档阅读</span></p></div></div></div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="wrap"><p class="eyebrow blue-text">LET’S BUILD SOMETHING USEFUL</p><h2>下一个好想法，<br>从一次交流开始。</h2><p class="contact-intro">欢迎交流 AI 应用开发、产品实践与开源协作。</p><a class="email-link" href="mailto:changming2577@163.com">changming2577@163.com <span aria-hidden="true">↗</span></a><div class="contact-actions"><button class="copy-email" type="button" id="copy-email">复制邮箱 <span aria-hidden="true">⧉</span></button><a href="https://github.com/C-xudco" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a><p class="copy-status" id="copy-status" role="status"></p></div>
+      <div class="resume-section" id="resume"><div><p class="mini-label">RESUME</p><h3>选择适合你的简历版本。</h3><p>同一段经历，两种岗位视角。</p></div><div class="resume-downloads"><a class="resume-download" href="resume-engineering.pdf" download><span><small>01 / ENGINEERING</small><strong>AI 应用开发 / AI 产品工程</strong><em>侧重实现、工具与工程交付 · PDF</em></span><span class="download-arrow" aria-hidden="true">↓</span></a><a class="resume-download" href="resume-product.pdf" download><span><small>02 / PRODUCT</small><strong>AI 产品经理</strong><em>侧重需求、体验与反馈验证 · PDF</em></span><span class="download-arrow" aria-hidden="true">↓</span></a></div></div></div>
+    </section>
+  </main>
+  <footer class="footer wrap"><a class="wordmark" href="#top">常铭<span class="wordmark-dot"></span></a><p>持续学习，持续构建。</p><span>© <span id="copyright-year">2026</span> Chang Ming</span></footer>
+  <dialog class="case-dialog" id="case-dialog" aria-labelledby="case-title"><button type="button" class="dialog-close" id="dialog-close" aria-label="关闭项目详情">×</button><p class="eyebrow blue-text" id="case-eyebrow"></p><h2 id="case-title"></h2><div id="case-content"></div></dialog>
+</body>
+</html>
